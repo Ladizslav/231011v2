@@ -1,10 +1,8 @@
-h1, h2, h3, h4, h5, div {
-	text-transform: uppercase;
-}
 
 div {
 	box-sizing: border-box;
 	padding: 20px;
+    text-transform: uppercase;
  }
 
 .container {
@@ -21,24 +19,24 @@ div {
 
 
 .logo {
-    background: #FF4D79;
+    background: red;
 	float: left;
 }
 
 .navigation {
-    background: #E85F43;
+    background: red;
 	float: right;
 }
 
 .sidebar {
-    background: #FFBE56;
+    background: orange;
 	float: left;
 	width: 250px;
 	height: 300px;
 }
 
 .main-content {
-    background: #88ABC2;
+    background: gray;
 	color: #fff;
 	float: left;
 	width: 734px;
@@ -46,6 +44,6 @@ div {
 }
 
 .footer {
-    background: #AAD637;
+    background: #aad638;
 	clear: both;
 }
